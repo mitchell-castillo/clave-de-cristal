@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="sun" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><circle cx="24" cy="24" r="9"/><path d="M24 3v6m0 30v6M3 24h6m30 0h6M9 9l4 4m22 22 4 4M9 39l4-4M35 13l4-4"/></g></symbol>
+<symbol id="moon" viewBox="0 0 48 48"><path d="M32 5A19 19 0 1 0 43 33 19 19 0 0 1 32 5Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></symbol>
+<symbol id="leaf" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M9 37C-1 15 25 6 40 7c3 18-7 38-28 31M7 43 32 17m-11 12V18m0 11 12 1"/></g></symbol>
+<symbol id="drop" viewBox="0 0 48 48"><path d="M24 4C20 13 9 23 9 31a15 15 0 0 0 30 0C39 23 28 13 24 4Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M17 31c0 4 3 7 7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+<symbol id="star" viewBox="0 0 48 48"><path d="m24 3 6 14 15 2-11 11 3 15-13-8-13 8 3-15L3 19l15-2Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></symbol>
+<symbol id="flame" viewBox="0 0 48 48"><path d="M25 3C26 17 7 16 9 32a15 15 0 0 0 30-1c0-8-5-12-7-15 1 9-4 10-6 8 4-9 2-15-1-21Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></symbol>
+<symbol id="diamond" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="m24 3 19 21-19 21L5 24Z"/><path d="M5 24h38M24 3l-8 21 8 21 8-21Z"/></g></symbol>
+</defs></svg>

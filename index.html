@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a1c25">
+  <meta name="description" content="Abre seis cerraduras de cristal cruzando pistas. Un juego original de deducción, sin reloj, en español.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Clave de Cristal · Un juego cada día</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al juego</a>
+  <header class="masthead"><a class="brand" href="./" aria-label="Clave de Cristal, inicio"><span class="brand-mark" aria-hidden="true">◇</span><span>CLAVE DE CRISTAL<small>EL TALLER DE LAS SEIS LUCES</small></span></a><span class="edition">25 OCT 2026 <span>JUEGO 08</span></span></header>
+  <div id="storage-notice" class="notice" role="status" hidden></div>
+  <main id="main" tabindex="-1"></main>
+  <p id="message" class="message" role="status" aria-live="polite" aria-atomic="true"></p>
+  <details class="guide"><summary>Cómo leer las pistas y controles</summary><div class="guide-content">
+    <p><strong>Objetivo:</strong> deduce la clave que abre cada cerradura. Las pistas de archivo permanecen a la vista y, juntas, determinan una única solución. Puedes resolver sin probar al azar. No hay reloj.</p>
+    <p><strong>Exactos:</strong> símbolos correctos en su casilla correcta. <strong>Desplazados:</strong> símbolos presentes en la clave, pero en otra casilla. Ambos números son totales: no indican qué símbolos acertaste. Un símbolo exacto nunca cuenta también como desplazado.</p>
+    <p>Ejemplo: si la clave fuera Sol · Luna · Hoja, probar Luna · Sol · Gota daría <strong>0 exactos y 2 desplazados</strong>. El tercer símbolo no está en la clave.</p>
+    <p><strong>Sin repetidos:</strong> cada símbolo aparece como máximo una vez en la clave y en cada prueba. Puede haber símbolos de la paleta que no se usen. Las formas y nombres acompañan a los colores.</p>
+    <p><strong>Ratón o pantalla táctil:</strong> selecciona una casilla y después un símbolo. No hace falta arrastrar. <strong>Teclado:</strong> Tab recorre los controles; Enter o Espacio activa botones. Con una casilla o la paleta enfocada, 1–7 coloca símbolos, ←/→ cambia de casilla, Supr o Retroceso borra y Enter comprueba. Escape cierra una confirmación. No se capturan teclas fuera del área de edición.</p>
+    <p>Cada prueba nueva añade una pista. Si agotas las pruebas, puedes reintentar la misma cerradura. El progreso se guarda en este navegador; no se sincroniza entre dispositivos. Reiniciar una cerradura conserva las ya abiertas. Borrar el avance pide confirmación.</p>
+  </div></details>
+  <footer><a href="https://mitchell-castillo.github.io/daily-games/">← Un juego cada día</a><span>Hecho para pensar con calma. Sin cuentas ni seguimiento.</span></footer>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title" aria-describedby="confirm-body"><h2 id="confirm-title">Confirmar</h2><p id="confirm-body"></p><div class="actions"><button id="cancel-dialog" class="secondary">Cancelar</button><button id="accept-dialog" class="primary">Confirmar</button></div></dialog>
+  <noscript><p class="notice">Necesitas activar JavaScript para jugar. No se descargan dependencias externas.</p></noscript>
+</body></html>
